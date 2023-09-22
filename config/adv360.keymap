@@ -42,7 +42,7 @@
  &kp EQUAL              &kp N1      &kp N2     &kp N3     &kp N4         &kp N5                  &none                                                                                     &none     &kp N6    &kp N7  &kp N8         &kp N9          &kp N0  &kp MINUS
    &kp TAB  &mt SCROLLLOCK ESC       &kp P      &kp Y      &kp C          &kp B                  &none                                                                                     &none      &kp V     &kp M   &kp U          &kp Z  &kp APOSTROPHE   &kp BSLH
      &kp Q               &kp A       &kp N      &kp I      &kp S          &kp F               &kp LALT      &mo 2         &to 0                          &mo 3            &mo 2         &kp RALT      &kp D     &kp T   &kp H          &kp O           &kp R      &kp L
- &kp LSHFT           &kp COMMA  &kp PERIOD      &kp J      &kp G  &kp SEMICOLON                                        &kp HOME                      &kp PG_UP                                    &kp ENTER     &kp W   &kp K  &kp BACKSPACE           &kp X  &kp RSHFT
+ &kp LSHFT           &kp COMMA  &kp PERIOD      &kp J      &kp G  &kp SEMICOLON                                           &none                          &none                                    &kp ENTER     &kp W   &kp K  &kp BACKSPACE           &kp X  &kp RSHFT
      &none           &kp GRAVE   &kp PG_DN  &kp PG_UP  &kp RIGHT                           &mt LSHFT E  &kp LCTRL  &kp LEFT_WIN                  &kp RIGHT_WIN  &mt RSHFT KP_N5  &mt RCTRL SPACE             &kp LEFT  &kp UP       &kp DOWN       &kp RIGHT      &none
             >;
         };
