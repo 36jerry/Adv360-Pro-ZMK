@@ -32,6 +32,15 @@
         };
     };
 
+    macros {
+        stenoTSDZ: stenoTSDZ {
+            compatible = "zmk,behavior-macro";
+            label = "STENOTSDZ";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp S &kp D &kp Z>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
