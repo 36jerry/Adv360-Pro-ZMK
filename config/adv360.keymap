@@ -121,10 +121,10 @@
         layer_Sekiro {
             bindings = <
 &kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp L    &kp R   &kp P   &kp Y   &kp C   &kp B   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp Q    &kp A   &kp N   &kp I   &kp S   &kp F   &kp T   &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp V    &kp X   &kp W   &kp J   &kp G   &kp R                   &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&kp H    &kp O   &kp D   &kp M   &kp E           &kp E   &kp U   &kp Z       &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&kp A    &kp B   &kp C   &kp D   &kp E   &kp F   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp G    &kp H   &kp I   &kp J   &kp K   &kp L   &kp M   &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp N    &kp O   &kp P   &kp Q   &kp R   &kp S                   &kp N8      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp T    &kp U   &kp V   &kp W   &kp X           &kp Y   &kp Z   &kp N9      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
