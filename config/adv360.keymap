@@ -45,6 +45,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        LHsemi {
+            bindings = <&kp SEMI>;
+            key-positions = <51 65>;
+            layers = <4>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -90,11 +100,11 @@
 
         layer_LH {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &to 0                                       &trans  &trans          &trans           &kp KP_DIVIDE  &trans      &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans          &kp KP_N7        &kp KP_N8      &kp KP_N9   &kp KP_MULTIPLY  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans          &kp KP_N4        &kp KP_N5      &kp KP_N6   &kp KP_PLUS      &kp KP_MINUS
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp KP_NUMLOCK  &kp KP_NUMBER_1  &kp KP_N2      &kp KP_N3   &kp KP_ENTER     &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                  &kp KP_N0        &trans         &kp KP_DOT  &trans           &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &to 0                                                          &trans  &trans          &trans           &kp KP_DIVIDE  &trans      &trans           &trans
+&kp Q   &kp B   &kp P   &kp M   &kp G   &kp X   &trans                                                         &trans  &trans          &kp KP_N7        &kp KP_N8      &kp KP_N9   &kp KP_MULTIPLY  &trans
+&kp R   &kp L   &kp O   &kp D   &kp F   &kp J   &kp Z            &trans       &trans           &trans  &trans  &trans  &trans          &kp KP_N4        &kp KP_N5      &kp KP_N6   &kp KP_PLUS      &kp KP_MINUS
+&kp N   &kp H   &kp E   &kp T   &kp A   &kp S                                 &trans           &trans                  &kp KP_NUMLOCK  &kp KP_NUMBER_1  &kp KP_N2      &kp KP_N3   &kp KP_ENTER     &trans
+&kp V   &kp W   &kp K   &kp C   &kp Y           &mt ENTER SPACE  &mt LSHFT I  &mt LCTRL U      &trans  &trans  &trans                  &kp KP_N0        &trans         &kp KP_DOT  &trans           &trans
             >;
         };
 
@@ -120,11 +130,11 @@
 
         layer_Sekiro {
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp A    &kp B   &kp C   &kp D   &kp E   &kp F   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp G    &kp H   &kp I   &kp J   &kp K   &kp L   &kp M   &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp N    &kp O   &kp P   &kp Q   &kp R   &kp S                   &kp N8      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&kp T    &kp U   &kp V   &kp W   &kp X           &kp Y   &kp Z   &kp N9      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &to 0                                          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp Q    &kp B   &kp P   &kp M   &kp G   &kp X   &trans                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp R    &kp L   &kp O   &kp D   &kp F   &kp J   &kp Z      &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp N    &kp H   &kp E   &kp T   &kp A   &kp S                      &kp N8      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp V    &kp W   &kp K   &kp C   &kp Y           &kp SPACE  &kp I   &kp U       &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
