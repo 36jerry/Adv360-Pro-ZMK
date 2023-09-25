@@ -122,11 +122,11 @@
 
         layer_RH {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &to 0                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &to 0                                                 &trans           &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                &trans           &kp X   &kp G   &kp M   &kp P   &kp B   &kp Q
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans       &kp Z            &kp J   &kp F   &kp D   &kp O   &kp L   &kp R
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                                     &kp S   &kp A   &kp T   &kp E   &kp H   &kp N
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &mt LCTRL U  &mt LSHFT I  &mt ENTER SPACE          &kp Y   &kp C   &kp K   &kp W   &kp V
             >;
         };
 
