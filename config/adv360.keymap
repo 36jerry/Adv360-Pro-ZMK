@@ -47,18 +47,6 @@
 
     combos {
         compatible = "zmk,combos";
-
-        LH. {
-            bindings = <&kp PERIOD>;
-            key-positions = <51 65>;
-            layers = <4>;
-        };
-
-        LH, {
-            bindings = <&kp COMMA>;
-            key-positions = <65 48>;
-            layers = <4>;
-        };
     };
 
     keymap {
