@@ -94,11 +94,11 @@
 
         layer_LH {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &to 0                                                          &trans  &trans      &trans           &kp KP_DIVIDE  &trans      &trans           &trans
-&kp Q   &kp B   &kp P   &kp M   &kp G   &kp X   &trans                                                         &trans  &trans      &kp KP_N7        &kp KP_N8      &kp KP_N9   &kp KP_MULTIPLY  &trans
-&kp R   &kp L   &kp O   &kp D   &kp F   &kp J   &kp Z            &trans       &trans           &trans  &trans  &trans  &trans      &kp KP_N4        &kp KP_N5      &kp KP_N6   &kp KP_PLUS      &kp KP_MINUS
-&kp N   &kp H   &kp E   &kp T   &kp A   &kp S                                 &trans           &trans                  &kp KP_NUM  &kp KP_NUMBER_1  &kp KP_N2      &kp KP_N3   &kp KP_ENTER     &trans
-&kp V   &kp W   &kp K   &kp C   &kp Y           &mt ENTER SPACE  &mt LSHFT I  &mt LCTRL U      &trans  &trans  &trans              &kp KP_N0        &trans         &kp KP_DOT  &trans           &trans
+&trans  &kp N1      &kp N2       &kp N3  &kp N4  &kp N5        &to 0                                                          &trans  &trans      &trans           &kp KP_DIVIDE  &trans      &trans           &trans
+&kp Q   &kp B       &kp P        &kp M   &kp G   &kp X         &trans                                                         &trans  &trans      &kp KP_N7        &kp KP_N8      &kp KP_N9   &kp KP_MULTIPLY  &trans
+&kp R   &kp L       &kp O        &kp D   &kp F   &kp J         &kp Z            &trans       &trans           &trans  &trans  &trans  &trans      &kp KP_N4        &kp KP_N5      &kp KP_N6   &kp KP_PLUS      &kp KP_MINUS
+&kp N   &mt SEMI H  &mt COMMA E  &kp T   &kp A   &mt PERIOD S                                &trans           &trans                  &kp KP_NUM  &kp KP_NUMBER_1  &kp KP_N2      &kp KP_N3   &kp KP_ENTER     &trans
+&kp V   &kp W       &kp K        &kp C   &kp Y                 &mt LSHFT SPACE  &mt ENTER I  &mt LCTRL U      &trans  &trans  &trans              &kp KP_N0        &trans         &kp KP_DOT  &trans           &trans
             >;
         };
 
@@ -129,6 +129,16 @@
 &kp R    &kp L   &kp O   &kp D   &kp F   &kp J   &kp Z      &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp N    &kp H   &kp E   &kp T   &kp A   &kp S                      &kp N8      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &kp V    &kp W   &kp K   &kp C   &kp Y           &kp SPACE  &kp I   &kp U       &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans     &trans   &trans    &trans
+&trans  &trans  &kp W   &kp F   &kp P   &kp G   &trans                                      &trans  &kp J   &kp L   &kp U      &kp Y    &kp SQT   &trans
+&kp Q   &kp A   &kp R   &kp S   &kp T   &kp D   &trans  &trans  &trans      &trans  &trans  &trans  &kp H   &kp N   &kp E      &kp I    &kp O     &kp RET
+&trans  &kp Z   &kp X   &kp C   &kp V   &kp B                   &trans      &trans                  &kp K   &kp M   &kp COMMA  &kp DOT  &kp SEMI  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans     &trans   &trans    &trans
             >;
         };
     };
