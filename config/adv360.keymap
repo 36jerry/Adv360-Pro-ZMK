@@ -49,7 +49,7 @@
 &kp EQUAL    &kp N1        &kp N2     &kp N3     &kp N4  &kp N5    &mo 1                                                                &mo 1      &kp N6   &kp N7    &kp N8  &kp N9         &kp N0          &kp MINUS
 &none        &mt SLCK ESC  &kp P      &kp Y      &kp C   &kp B     &none                                                                &none      &kp V    &kp M     &kp U   &kp Z          &kp APOSTROPHE  &mt DEL GRAVE
 &kp Q        &kp A         &kp N      &kp I      &kp S   &kp F     &kp FSLH  &none   &none              &none          &none            &kp BSLH   &kp D    &kp T     &kp H   &kp O          &kp R           &kp L
-&key_repeat  &kp SEMI      &kp COMMA  &kp J      &kp G   &kp SEMI                    &mt LALT LBKT      &mt RGUI RBKT                              &kp TAB  &kp W     &kp K   &kp BACKSPACE  &kp X           &none
+&key_repeat  &kp COMMA     &kp DOT    &kp J      &kp G   &kp SEMI                    &mt LALT LBKT      &mt RGUI RBKT                              &kp TAB  &kp W     &kp K   &kp BACKSPACE  &kp X           &none
 &caps_word   &none         &kp PG_DN  &kp PG_UP  &none             &kp E     &mo 11  &mo 12             &kp RSHFT      &mt LCTRL ENTER  &kp SPACE           &kp LEFT  &kp UP  &kp DOWN       &kp RIGHT       &none
             >;
         };
@@ -146,11 +146,11 @@
 
         layer_10 {
             bindings = <
-&trans  &mkp MB1  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
