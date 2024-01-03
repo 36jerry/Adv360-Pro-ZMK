@@ -74,7 +74,7 @@
             >;
         };
 
-        layer_LH {
+        Left {
             bindings = <
 &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &to 0                                                     &trans  &trans      &trans           &kp KP_DIVIDE  &trans      &trans           &trans
 &kp Q   &kp B   &kp P   &kp M   &kp G   &kp X   &trans                                                    &trans  &trans      &kp KP_N7        &kp KP_N8      &kp KP_N9   &kp KP_MULTIPLY  &trans
@@ -84,7 +84,7 @@
             >;
         };
 
-        layer_RH {
+        Right {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &to 0                                                 &trans           &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                &trans           &kp X   &kp G   &kp M   &kp P   &kp B   &kp Q
@@ -94,13 +94,13 @@
             >;
         };
 
-        layer_STENO {
+        STENO {
             bindings = <
 &none  &none  &none  &none  &none  &none      &to 0                                  &none  &none      &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none      &none                                  &none  &none      &none  &none  &none  &none  &none
 &none  &kp S  &kp T  &kp P  &kp H  &kp ASTRK  &none  &none  &none      &none  &none  &none  &kp ASTRK  &kp F  &kp P  &kp L  &kp T  &kp D
 &none  &kp S  &kp K  &kp W  &kp R  &kp ASTRK                &none      &none                &kp ASTRK  &kp R  &kp B  &kp G  &kp S  &kp Z
-&none  &none  &none  &none  &none             &kp A  &kp O  &none      &none  &kp E  &kp U             &none  &none  &none  &none  &stenoTSDZ
+&none  &none  &none  &none  &none             &kp A  &kp O  &none      &none  &kp E  &kp U             &none  &none  &none  &none  &trans
             >;
         };
 
@@ -114,7 +114,7 @@
             >;
         };
 
-        layer_7 {
+        Colemak {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans     &trans   &trans    &trans
 &trans  &trans  &kp W   &kp F   &kp P   &kp G   &trans                                      &trans  &kp J   &kp L   &kp U      &kp Y    &kp SQT   &trans
