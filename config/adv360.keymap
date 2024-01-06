@@ -126,11 +126,11 @@
 
         Web {
             bindings = <
-&trans  &trans    &trans    &trans    &trans     &trans  &trans                                      &trans  &trans  &trans    &trans  &trans    &trans     &trans
-&trans  &trans    &trans    &kp Y     &kp M      &kp B   &trans                                      &trans  &kp B   &kp M     &kp Y   &trans    &trans     &trans
-&kp L   &kp R     &kp N     &kp H     &kp S      &kp D   &trans  &trans  &trans      &trans  &trans  &trans  &kp D   &kp S     &kp H   &kp N     &kp R      &kp L
-&trans  &kp X     &kp BSPC  &kp K     &kp W      &trans                  &trans      &trans                  &trans  &kp W     &kp K   &kp BSPC  &kp X      &trans
-&trans  &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT          &trans  &trans  &trans      &trans  &trans  &trans          &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &trans
+&trans  &trans    &trans    &trans    &trans     &trans  &trans                                            &trans  &trans  &trans    &trans  &trans    &trans     &trans
+&trans  &trans    &trans    &kp Y     &kp M      &kp B   &trans                                            &trans  &kp B   &kp M     &kp Y   &trans    &trans     &trans
+&kp L   &kp R     &kp N     &kp H     &kp S      &kp D   &trans  &trans  &trans      &trans  &trans        &trans  &kp D   &kp S     &kp H   &kp N     &kp R      &kp L
+&trans  &kp X     &kp BSPC  &kp K     &kp W      &trans                  &trans      &trans                        &trans  &kp W     &kp K   &kp BSPC  &kp X      &trans
+&trans  &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT          &trans  &trans  &trans      &trans  &lt 18 ENTER  &trans          &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &trans
             >;
         };
 
@@ -226,11 +226,11 @@
 
         CTRL+layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans     &trans         &trans       &trans     &trans     &trans        &trans                                      &trans  &trans     &trans     &trans     &trans     &trans     &trans
+&trans     &trans         &kp RC(P)    &kp RC(Y)  &kp RC(C)  &kp RC(B)     &trans                                      &trans  &kp RC(V)  &kp RC(M)  &kp RC(U)  &kp RC(Z)  &trans     &trans
+&kp RC(Q)  &kp RC(A)      &kp RC(N)    &kp RC(I)  &kp RC(S)  &kp RC(F)     &trans  &trans  &trans      &trans  &trans  &trans  &kp LC(D)  &kp RC(T)  &kp RC(H)  &kp RC(O)  &kp RC(R)  &kp RC(L)
+&trans     &kp RC(COMMA)  &kp RC(DOT)  &kp RC(J)  &kp RC(G)  &kp RC(SEMI)                  &trans      &trans                  &trans     &kp RC(W)  &kp RC(K)  &trans     &kp RC(X)  &trans
+&trans     &trans         &trans       &trans     &trans                   &trans  &trans  &trans      &trans  &trans  &trans             &trans     &trans     &trans     &trans     &trans
             >;
         };
 
