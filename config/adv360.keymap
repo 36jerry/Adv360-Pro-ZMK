@@ -127,8 +127,8 @@
         Web+ {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans    &trans           &trans        &trans         &trans       &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans    &trans           &kp M         &trans         &trans       &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp W   &kp A     &kp S            &kp D         &kp F          &kp G        &kp Q
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp Y     &kp U            &kp I         &kp O          &kp SQT      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp H     &kp J            &kp K         &kp L          &kp SEMI     &kp P
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp HOME  &kp LC(W)        &kp PG_UP     &kp PG_DN      &kp END      &kp LC(LS(T))
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans            &kp LC(LS(TAB))  &kp LA(LEFT)  &kp LA(RIGHT)  &kp LC(TAB)  &trans
             >;
