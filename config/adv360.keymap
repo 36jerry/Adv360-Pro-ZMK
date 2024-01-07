@@ -124,13 +124,13 @@
             >;
         };
 
-        Web {
+        Web+ {
             bindings = <
-&trans  &trans    &trans    &trans    &trans     &trans  &trans                                            &trans               &trans  &trans    &trans  &trans    &trans     &trans
-&trans  &trans    &trans    &kp Y     &kp M      &kp B   &trans                                            &trans               &kp B   &kp M     &kp Y   &trans    &trans     &trans
-&kp L   &kp R     &kp N     &kp H     &kp S      &kp D   &trans  &trans  &trans      &trans  &trans        &trans               &kp D   &kp S     &kp H   &kp N     &kp R      &kp L
-&trans  &kp X     &kp BSPC  &kp K     &kp W      &trans                  &trans      &trans                                     &trans  &kp W     &kp K   &kp BSPC  &kp X      &trans
-&trans  &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT          &trans  &trans  &trans      &trans  &lt 18 ENTER  &lt 23 K_PLAY_PAUSE          &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans    &trans           &trans        &trans         &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans    &trans           &kp M         &trans         &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp W   &kp A     &kp S            &kp D         &kp F          &kp G        &kp Q
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp HOME  &kp LC(W)        &kp PG_UP     &kp PG_DN      &kp END      &kp LC(LS(T))
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans            &kp LC(LS(TAB))  &kp LA(LEFT)  &kp LA(RIGHT)  &kp LC(TAB)  &trans
             >;
         };
 
@@ -274,13 +274,13 @@
             >;
         };
 
-        Web+ {
+        Web {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans    &trans           &trans        &trans         &trans       &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans    &trans           &trans        &trans         &trans       &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans           &kp LBKT      &kp RBKT       &trans       &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp HOME  &kp LC(W)        &kp PG_UP     &kp PG_DN      &kp END      &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans            &kp LC(LS(TAB))  &kp LA(LEFT)  &kp LA(RIGHT)  &kp LC(TAB)  &trans
+&trans  &trans    &trans    &trans    &trans     &trans  &trans                                            &trans              &trans  &trans    &trans  &trans    &trans     &trans
+&trans  &trans    &trans    &kp Y     &kp M      &kp B   &trans                                            &trans              &trans  &trans    &kp Y   &trans    &trans     &trans
+&kp L   &kp R     &kp N     &kp H     &kp S      &kp D   &trans  &trans  &trans      &trans  &trans        &trans              &kp D   &trans    &kp H   &kp N     &kp R      &kp L
+&trans  &kp X     &kp BSPC  &kp K     &kp W      &trans                  &trans      &trans                                    &trans  &kp W     &kp K   &kp BSPC  &kp X      &trans
+&trans  &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT          &trans  &trans  &trans      &trans  &lt 18 ENTER  &lt 8 K_PLAY_PAUSE          &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &trans
             >;
         };
     };
