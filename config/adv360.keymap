@@ -19,19 +19,13 @@
     flavor = "balanced";
 };
 
+&lt {
+    flavor = "hold-preferred";
+};
+
 / {
     behaviors {
         #include "macros.dtsi"
-
-        hm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick_tap_ms = <175>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
     };
 
     macros {
@@ -49,7 +43,7 @@
 &kp EQUAL    &kp N1        &kp N2     &kp N3     &kp N4  &kp N5    &mo 1                                                             &mo 1         &kp N6   &kp N7    &kp N8  &kp N9         &kp N0          &kp MINUS
 &none        &mt SLCK ESC  &kp P      &kp Y      &kp C   &kp B     &none                                                             &none         &kp V    &kp M     &kp U   &kp Z          &kp APOSTROPHE  &mt DEL GRAVE
 &kp Q        &kp A         &kp N      &kp I      &kp S   &kp F     &kp FSLH  &mo 15           &mo 16      &mo 22       &mo 21        &kp BSLH      &kp D    &kp T     &kp H   &kp O          &kp R           &kp L
-&key_repeat  &kp COMMA     &kp DOT    &kp J      &kp G   &kp SEMI                             &mo 14      &lt 20 LBKT                              &kp TAB  &kp W     &kp K   &kp BACKSPACE  &kp X           &none
+&key_repeat  &kp COMMA     &kp DOT    &kp J      &kp G   &kp SEMI                             &mo 14      &lt 20 LBKT                              &kp TAB  &kp W     &kp K   &kp BACKSPACE  &kp X           &kp LSHIFT
 &caps_word   &none         &kp PG_DN  &kp PG_UP  &none             &lt 11 E  &lt 12 QUESTION  &mo 13      &lt 19 RBKT  &lt 18 ENTER  &lt 17 SPACE           &kp LEFT  &kp UP  &kp DOWN       &kp RIGHT       &none
             >;
         };
