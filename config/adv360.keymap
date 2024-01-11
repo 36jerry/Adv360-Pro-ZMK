@@ -20,7 +20,7 @@
 };
 
 &lt {
-    flavor = "hold-preferred";
+    flavor = "tap-unless-interrupted";
 };
 
 / {
