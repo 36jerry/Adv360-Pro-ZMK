@@ -152,11 +152,11 @@
 
         SHFT+layer {
             bindings = <
-&trans     &kp LS(N1)     &kp LS(N2)   &kp LS(N3)  &kp LS(N4)  &kp LS(N5)    &trans                                      &trans  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &trans
-&trans     &trans         &kp LS(P)    &kp LS(Y)   &kp LS(C)   &kp LS(B)     &trans                                      &trans  &kp LS(V)   &kp LS(M)   &kp LS(U)   &kp LS(Z)   &trans      &trans
-&kp LS(Q)  &kp LS(A)      &kp LS(D)    &kp LS(I)   &kp LS(S)   &kp LS(F)     &trans  &trans  &trans      &trans  &trans  &trans  &kp LS(D)   &kp LS(T)   &kp LS(H)   &kp LS(O)   &kp LS(R)   &kp LS(L)
-&trans     &kp LS(COMMA)  &kp LS(DOT)  &kp LS(J)   &kp LS(G)   &kp LS(SEMI)                  &trans      &trans                  &trans      &kp LS(W)   &kp LS(K)   &kp BSPC    &kp LS(X)   &trans
-&trans     &trans         &trans       &trans      &trans                    &trans  &trans  &trans      &trans  &trans  &trans              &trans      &trans      &trans      &trans      &trans
+&trans     &kp LS(N1)     &kp LS(N2)   &kp LS(N3)  &kp LS(N4)  &kp LS(N5)    &trans                                      &trans  &kp LS(N6)            &kp LS(N7)  &kp LS(N8)  &kp LS(N9)     &kp LS(N0)  &trans
+&trans     &kp LS(MINUS)  &kp LS(P)    &kp LS(Y)   &kp LS(C)   &kp LS(B)     &trans                                      &trans  &kp LS(V)             &kp LS(M)   &kp LS(U)   &kp LS(COMMA)  &kp LS(Z)   &trans
+&kp LS(Q)  &kp LS(A)      &kp LS(D)    &kp LS(I)   &kp LS(S)   &kp LS(F)     &trans  &trans  &trans      &trans  &trans  &trans  &kp LS(D)             &kp LS(T)   &kp LS(H)   &kp LS(O)      &kp LS(R)   &kp LS(L)
+&trans     &kp LS(Q)      &kp LS(DOT)  &kp LS(J)   &kp LS(G)   &kp LS(SEMI)                  &trans      &trans                  &kp LS(SINGLE_QUOTE)  &kp LS(W)   &kp LS(K)   &kp BSPC       &kp LS(X)   &trans
+&trans     &trans         &trans       &trans      &trans                    &trans  &trans  &trans      &trans  &trans  &trans                        &trans      &trans      &trans         &trans      &trans
             >;
         };
 
