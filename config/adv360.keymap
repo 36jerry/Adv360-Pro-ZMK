@@ -149,11 +149,11 @@
 
         SHFT+layer {
             bindings = <
-&trans       &kp EXCL   &kp AT     &kp HASH   &kp DOLLAR  &kp PERCENT  &trans                                      &trans    &kp CARET          &kp AMPERSAND  &kp STAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans       &kp UNDER  &kp LS(P)  &kp LS(Y)  &kp LS(C)   &kp LS(B)    &trans                                      &trans    &kp LS(V)          &kp LS(M)      &kp LS(U)  &kp LT                &kp LS(Z)              &trans
-&key_repeat  &kp LS(A)  &kp LS(N)  &kp LS(I)  &kp LS(S)   &kp LS(F)    &trans  &trans  &trans      &trans  &trans  &kp PIPE  &kp LS(D)          &kp LS(T)      &kp LS(H)  &kp LS(O)             &kp LS(R)              &kp LS(L)
-&trans       &kp LS(Q)  &kp GT     &kp LS(J)  &kp LS(G)   &kp COLON                    &trans      &trans                    &kp DOUBLE_QUOTES  &kp LS(W)      &kp LS(K)  &kp BSPC              &kp LS(X)              &trans
-&trans       &trans     &trans     &trans     &trans                   &trans  &trans  &trans      &trans  &trans  &trans                       &trans         &trans     &trans                &trans                 &trans
+&trans       &kp EXCL   &kp AT     &kp HASH   &kp DOLLAR  &kp PERCENT  &trans                                                   &trans    &kp CARET          &kp AMPERSAND  &kp STAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS
+&trans       &kp UNDER  &kp LS(P)  &kp LS(Y)  &kp LS(C)   &kp LS(B)    &trans                                                   &trans    &kp LS(V)          &kp LS(M)      &kp LS(U)  &kp LT                &kp LS(Z)              &trans
+&key_repeat  &kp LS(A)  &kp LS(N)  &kp LS(I)  &kp LS(S)   &kp LS(F)    &kp LS(NON_US_BSLH)  &trans  &trans      &trans  &trans  &kp PIPE  &kp LS(D)          &kp LS(T)      &kp LS(H)  &kp LS(O)             &kp LS(R)              &kp LS(L)
+&trans       &kp LS(Q)  &kp GT     &kp LS(J)  &kp LS(G)   &kp COLON                                 &trans      &trans                    &kp DOUBLE_QUOTES  &kp LS(W)      &kp LS(K)  &kp BSPC              &kp LS(X)              &trans
+&trans       &trans     &trans     &trans     &trans                   &trans               &trans  &trans      &trans  &trans  &trans                       &trans         &trans     &trans                &trans                 &trans
             >;
         };
 
